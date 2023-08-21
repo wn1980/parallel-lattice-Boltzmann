@@ -1,12 +1,14 @@
 #include <stdio.h>
-#include <cuda.h>
-#include <cublas.h>
-#include <cuda_runtime.h>
 #include <stdlib.h>
 #include <math.h>
 #include <string.h>
-#include <helper_cuda.h>
-#include <helper_timer.h>
+
+#include <cuda.h>
+#include <cublas.h>
+#include <cuda_runtime.h>
+
+#include "helper_cuda.h"
+#include "helper_timer.h"
 
 const int BLOCK_SIZE_X = 26;  
 const int BLOCK_SIZE_Y = 26;
